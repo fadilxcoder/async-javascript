@@ -21,5 +21,7 @@ is the same as :
 > const firstName = 'fadilxcoder...';
 
 > console.log(`Hello ${firstName}! 
+
 > How are you 
+
 > today?`);

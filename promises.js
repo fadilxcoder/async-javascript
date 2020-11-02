@@ -77,9 +77,21 @@ createPost({title : 'POST THREE', body : 'Body three...'})
 .then(getPosts)
 
 /*
-.catch((rejectResolve) => {
-   console.log(rejectResolve);
+.catch((rejectResponse) => {
+   console.log(rejectResponse);
 });
 */
 
-.catch(rejectResolve => console.log(rejectResolve));
+.catch(rejectResponse => console.log(rejectResponse));
+
+
+/** Promise ALL */
+
+const p1 = Promise.resolve('Hello world 1');
+const p2 = 11;
+const p3 = new Promise((res, rej) => setTimeout(res, 5000, 'param01'));
+const p4 = fetch('https://reqres.in/api/users/2').then((response) => response.json());
+
+Promise.all([p1, p2, p3, p4])
+.then(value => console.log(value))
+;

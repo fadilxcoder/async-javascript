@@ -1,7 +1,7 @@
 # Notes
 
 URL : https://fadilxcoder.github.io/async-javascript/index.html
-
+API Testing (Updating data 2000 milliseconds) : https://fadilxcoder.github.io/async-javascript/api.html
 ### View logs in browser console
 
 - Asynchronous => `Code Exec #1` -> `( Do other stuffs before it finishes)` -> `Code Exec #2`

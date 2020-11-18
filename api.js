@@ -15,8 +15,8 @@ async function apiCall()
     output += `<li>${data.data.first_name}</li>`;
     output += `<li>${data.data.last_name}</li>`;
     output += `<li>${data.data.email}</li>`;
-    output += `<li>${data.ad.company}</li>`;
-    output += `<li>${data.ad.url}</li>`;
+//     output += `<li>${data.ad.company}</li>`;
+//     output += `<li>${data.ad.url}</li>`;
     output += '</ul>';
     
     var target = document.getElementById('result');
